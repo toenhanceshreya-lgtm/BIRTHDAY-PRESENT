@@ -156,7 +156,7 @@ export function OurStory() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-midnight-deep/95 p-6 backdrop-blur-xl"
+            className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto scrollbar-thin scrollbar-thumb-gold scrollbar-track-transparent bg-midnight-deep/95 p-6 backdrop-blur-xl"
             onClick={() => setOpen(null)}
           >
             <motion.div
@@ -165,7 +165,7 @@ export function OurStory() {
               exit={{ scale: 0.9, y: 40 }}
               transition={{ duration: 0.5 }}
               onClick={(e) => e.stopPropagation()}
-              className="relative w-full max-w-4xl overflow-hidden rounded-3xl border border-gold/30 bg-midnight/80 p-8 shadow-2xl backdrop-blur-xl sm:p-12"
+              className="relative w-full max-w-5xl max-h-[90vh] overflow-y-auto scrollbar-thin scrollbar-thumb-gold scrollbar-track-transparent rounded-3xl border border-gold/30 bg-midnight/80 p-8 shadow-2xl backdrop-blur-xl sm:p-12"
             >
               <button
                 onClick={() => setOpen(null)}
@@ -177,7 +177,7 @@ export function OurStory() {
               <h3 className="mt-1 font-display text-4xl text-ivory sm:text-5xl">{ep.title}</h3>
               <p className="mt-2 font-serif italic text-ivory/60">{ep.tag}</p>
 
-              <div className="mt-8 grid grid-cols-2 gap-5">
+              <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {ep.photos.map((file, i) => (
                   <motion.div
                     key={i}
@@ -193,14 +193,12 @@ export function OurStory() {
                         muted
                         loop
                         playsInline
-                        className="h-80 w-full object-contain bg-black"
-                      />
+                        className="h-64 w-full object-contain bg-black" />
                     ) : (
                       <img
                         src={file.src}
                         alt={`Photo ${i + 1}`}
-                        className="h-80 w-full object-contain bg-black"
-                      />
+                        className="h-64 w-full object-contain bg-black" />
                     )}
                   </motion.div>
                 ))}

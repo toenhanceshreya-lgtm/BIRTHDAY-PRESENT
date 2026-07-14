@@ -5,8 +5,14 @@ const LETTERS = [
   {
     title: "Open when you're happy", emoji: "💌", body: "Hello love, I always wish u to be happyyy 🩷If u r happy rn u should be grateful to me bcoz it's me after ur mother who would be praying for ur happiness in my every prayer.I always believe u will turn out in a very good and great and humble person i would have ever known.U would be such a grt ideal person for yr kidss, my love.🤌🏼🩷"
   },
-  { title: "Open when you're stressed", emoji: "💌", body: "What? Missing me? Then text me, let me know , yha aakr pdhne ki koi need nhi h, just let me know. What? U r blocked? Then email me , paytm me , gpay me or whatever 😒 No excuse tht u can't express.  Do it before its too late 😌🌻🪸Imagine u r reading this I'm no more in this world🙂" },
-  { title: "Open when you miss me", emoji: "💌", body: "I'm missing you too. Close your eyes. Feel that? That's me, holding you across whatever miles are between us. Always." },
+  {
+    title: "Open when you're stressed", emoji: "💌", body: `
+Hello 
+Ik u r stressed, and tm stress m idhr aaoge bhi nhi. Bcoz ik u focus more on finding solution immediately. But trust me sometimes it's good to take break and take deep breath to find better solution. Dont panic urself. Just have confidence u can cope up from anything that's d personality u have and the best thing u have me with you Who is gonna support u , motivate u and be with you always. Chilll ... lets have biryani??😌🫶🏻`},
+  {
+    title: "Open when you miss me", emoji: "💌", body: `What? Missing me? Then text me, let me know , yha aakr pdhne ki koi need nhi h, just let me know. What? U r blocked? Then email me , paytm me , gpay me or whatever 😒 
+No excuse tht u can't express.  Do it before its too late 😌🌻🪸
+Imagine u r reading this I'm no more in this world🙂` },
   {
     title: "Birthday Letter", emoji: "🎂", body: `Hello My Coral Reef,
 It's your birthday todayyyy, yooyoooooo😭😌🫶🏻 . Wishing u the best years ahheaddd. I love you so much babu. 🫂🌻🫶🏻 I'm glad to be ur sunflower. 🫶🏻🌻
