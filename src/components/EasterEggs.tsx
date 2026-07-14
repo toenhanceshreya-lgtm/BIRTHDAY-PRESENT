@@ -28,7 +28,7 @@ export function EasterEggs() {
         onClick={() =>
           setModal({
             title: "Inside joke unlocked ⭐",
-            body: "\"You know the one. Yeah — that one. Don't act like you don't remember.\" 😏",
+            body: "\"You know the peanut butter. Yeah — that one. Don't act like you don't remember.\" 😏",
           })
         }
         className="fixed right-6 top-24 z-30 text-lg opacity-70 transition hover:opacity-100 hover:scale-150"
