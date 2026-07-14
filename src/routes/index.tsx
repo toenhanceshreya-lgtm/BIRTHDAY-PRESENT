@@ -73,7 +73,7 @@ function Index() {
           {/* Persistent music toggle */}
           <button
             onClick={toggleMusic}
-            className="fixed bottom-6 right-6 z-50 rounded-full bg-gold px-5 py-3 text-black shadow-xl transition hover:scale-110"
+            className="fixed top-6 right-6 z-50 rounded-full bg-gold px-5 py-3 text-black shadow-xl transition hover:scale-110"
           >
             {isPlaying ? "🔊 Music On" : "🔇 Music Off"}
           </button>
